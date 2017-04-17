@@ -1,0 +1,1 @@
+mpiexec.hydra -np 5 ~/luoxiaojian/grape/cpp/build/sim --nointeractive --efile ~/luoxiaojian/grape/dataset/twitter/twitter.e --vfile ~/luoxiaojian/grape/dataset/twitter/twitter.v --rfile ~/luoxiaojian/grape/dataset/twitter/twitter.r --query_dir ~/luoxiaojian/grape/cpp/scripts/grape-data/test/sim-query --result_dir . --log_dir . --v 2

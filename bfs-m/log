@@ -1,0 +1,282 @@
+Log file created at: 2017/04/17 02:45:43
+Running on machine: bd3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 02:45:43.581437 23914 util.cc:50] "bfs-1-1"
+I0417 02:45:43.581657 23914 util.cc:50] "bfs-1-2"
+I0417 02:45:43.581670 23914 util.cc:50] "bfs-1-4"
+I0417 02:45:43.581678 23914 util.cc:50] "bfs-1-3"
+I0417 02:45:43.581691 23914 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-1
+I0417 02:45:43.581784 23914 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-1
+I0417 02:45:43.582559 23914 worker.cc:121] [coordinator] PEval begins.
+I0417 02:45:43.585961 23914 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:45:43.592015 23914 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:45:43.594801 23914 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:45:43.597858 23914 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:45:43.599319 23914 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:45:43.601680 23914 worker.cc:180] [coordinator] finished computation.
+I0417 02:45:43.602481 23914 worker.cc:192] [coordinator] finished result assem.
+I0417 02:45:43.602493 23914 metrics.cc:96] --------------------------------------------------
+I0417 02:45:43.602507 23914 metrics.cc:97] algorithm: bfs
+I0417 02:45:43.602510 23914 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.v
+I0417 02:45:43.602512 23914 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.e
+I0417 02:45:43.602514 23914 metrics.cc:100] partition-num: 12
+I0417 02:45:43.602516 23914 metrics.cc:101] loading-strategy: 0
+I0417 02:45:43.602519 23914 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-1
+I0417 02:45:43.602520 23914 metrics.cc:103] --------------------------------------------------
+I0417 02:45:43.602522 23914 metrics.cc:104] graph-loading-time: 469.285s
+I0417 02:45:43.602540 23914 metrics.cc:105] grape-total-time: 0.0199361s
+I0417 02:45:43.602545 23914 metrics.cc:106] grape-evaluation-time: 0.00768614s
+I0417 02:45:43.602546 23914 metrics.cc:108] grape-assemble-time: 0.000790834s
+I0417 02:45:43.602550 23914 metrics.cc:110] grape-communication-time: 0.00880289s
+I0417 02:45:43.602552 23914 metrics.cc:112] 	-- comm-serialization-time: 6.1512e-05s
+I0417 02:45:43.602555 23914 metrics.cc:114] 	-- comm-traffic-time: 0.00772953s
+I0417 02:45:43.602557 23914 metrics.cc:116] grape-message-count: 260
+I0417 02:45:43.602560 23914 metrics.cc:117] grape-rounds: 3
+I0417 02:45:43.602561 23914 metrics.cc:118] <------------------------------------------------>
+I0417 02:45:43.602563 23914 metrics.cc:121] rnd-0: t=0.003413s	cmt-0=179
+I0417 02:45:43.602571 23914 metrics.cc:121] rnd-1: t=0.002797s	cmt-1=81
+I0417 02:45:43.602573 23914 metrics.cc:121] rnd-2: t=0.001476s	cmt-2=0
+I0417 02:45:43.602576 23914 metrics.cc:126] !------------------------------------------------!
+I0417 02:45:43.602577 23914 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:45:43.602583 23914 metrics.cc:131] [worker_6]	0.002490
+I0417 02:45:43.602593 23914 metrics.cc:131] [worker_5]	0.000289
+I0417 02:45:43.602598 23914 metrics.cc:131] [worker_1]	0.000338
+I0417 02:45:43.602602 23914 metrics.cc:131] [worker_2]	0.000320
+I0417 02:45:43.602605 23914 metrics.cc:131] [worker_3]	0.000387
+I0417 02:45:43.602608 23914 metrics.cc:131] [worker_4]	0.000370
+I0417 02:45:43.602612 23914 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:45:43.602614 23914 metrics.cc:131] [worker_6]	0.000599
+I0417 02:45:43.602618 23914 metrics.cc:131] [worker_5]	0.001348
+I0417 02:45:43.602622 23914 metrics.cc:131] [worker_1]	0.002133
+I0417 02:45:43.602625 23914 metrics.cc:131] [worker_2]	0.000827
+I0417 02:45:43.602628 23914 metrics.cc:131] [worker_3]	0.002012
+I0417 02:45:43.602632 23914 metrics.cc:131] [worker_4]	0.002082
+I0417 02:45:43.602634 23914 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:45:43.602638 23914 metrics.cc:131] [worker_6]	0.000999
+I0417 02:45:43.602641 23914 metrics.cc:131] [worker_5]	0.000340
+I0417 02:45:43.602644 23914 metrics.cc:131] [worker_1]	0.000487
+I0417 02:45:43.602648 23914 metrics.cc:131] [worker_2]	0.000366
+I0417 02:45:43.602663 23914 metrics.cc:131] [worker_3]	0.000928
+I0417 02:45:43.602668 23914 metrics.cc:131] [worker_4]	0.000681
+I0417 02:45:43.602991 23914 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-2
+I0417 02:45:43.603018 23914 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-2
+I0417 02:45:43.603456 23914 worker.cc:121] [coordinator] PEval begins.
+I0417 02:45:43.667388 23914 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:45:43.754089 23914 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:45:43.807341 23914 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:45:43.845638 23914 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:45:43.903537 23914 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:45:43.915632 23914 worker.cc:133] [coordinator] IncEval - 3 begins.
+I0417 02:45:43.940264 23914 worker.cc:144] [coordinator] IncEval - 3 finishes.
+I0417 02:45:43.943064 23914 worker.cc:180] [coordinator] finished computation.
+I0417 02:45:43.946286 23914 worker.cc:192] [coordinator] finished result assem.
+I0417 02:45:43.946298 23914 metrics.cc:96] --------------------------------------------------
+I0417 02:45:43.946301 23914 metrics.cc:97] algorithm: bfs
+I0417 02:45:43.946316 23914 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.v
+I0417 02:45:43.946317 23914 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.e
+I0417 02:45:43.946319 23914 metrics.cc:100] partition-num: 12
+I0417 02:45:43.946321 23914 metrics.cc:101] loading-strategy: 0
+I0417 02:45:43.946322 23914 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-2
+I0417 02:45:43.946324 23914 metrics.cc:103] --------------------------------------------------
+I0417 02:45:43.946326 23914 metrics.cc:104] graph-loading-time: 469.285s
+I0417 02:45:43.946332 23914 metrics.cc:105] grape-total-time: 0.342845s
+I0417 02:45:43.946336 23914 metrics.cc:106] grape-evaluation-time: 0.199767s
+I0417 02:45:43.946337 23914 metrics.cc:108] grape-assemble-time: 0.0031991s
+I0417 02:45:43.946339 23914 metrics.cc:110] grape-communication-time: 0.135717s
+I0417 02:45:43.946342 23914 metrics.cc:112] 	-- comm-serialization-time: 0.000107288s
+I0417 02:45:43.946357 23914 metrics.cc:114] 	-- comm-traffic-time: 0.125191s
+I0417 02:45:43.946359 23914 metrics.cc:116] grape-message-count: 11216
+I0417 02:45:43.946362 23914 metrics.cc:117] grape-rounds: 4
+I0417 02:45:43.946363 23914 metrics.cc:118] <------------------------------------------------>
+I0417 02:45:43.946365 23914 metrics.cc:121] rnd-0: t=0.063944s	cmt-0=4992
+I0417 02:45:43.946369 23914 metrics.cc:121] rnd-1: t=0.053266s	cmt-1=4769
+I0417 02:45:43.946372 23914 metrics.cc:121] rnd-2: t=0.057911s	cmt-2=1455
+I0417 02:45:43.946375 23914 metrics.cc:121] rnd-3: t=0.024646s	cmt-3=0
+I0417 02:45:43.946377 23914 metrics.cc:126] !------------------------------------------------!
+I0417 02:45:43.946379 23914 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:45:43.946384 23914 metrics.cc:131] [worker_6]	0.063010
+I0417 02:45:43.946389 23914 metrics.cc:131] [worker_5]	0.000127
+I0417 02:45:43.946393 23914 metrics.cc:131] [worker_4]	0.000187
+I0417 02:45:43.946396 23914 metrics.cc:131] [worker_3]	0.000222
+I0417 02:45:43.946400 23914 metrics.cc:131] [worker_2]	0.000137
+I0417 02:45:43.946403 23914 metrics.cc:131] [worker_1]	0.000176
+I0417 02:45:43.946406 23914 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:45:43.946410 23914 metrics.cc:131] [worker_6]	0.013307
+I0417 02:45:43.946414 23914 metrics.cc:131] [worker_5]	0.047906
+I0417 02:45:43.946419 23914 metrics.cc:131] [worker_4]	0.052413
+I0417 02:45:43.946421 23914 metrics.cc:131] [worker_3]	0.037693
+I0417 02:45:43.946425 23914 metrics.cc:131] [worker_2]	0.022467
+I0417 02:45:43.946429 23914 metrics.cc:131] [worker_1]	0.029061
+I0417 02:45:43.946431 23914 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:45:43.946447 23914 metrics.cc:131] [worker_6]	0.057105
+I0417 02:45:43.946452 23914 metrics.cc:131] [worker_5]	0.012917
+I0417 02:45:43.946456 23914 metrics.cc:131] [worker_4]	0.035727
+I0417 02:45:43.946460 23914 metrics.cc:131] [worker_3]	0.023172
+I0417 02:45:43.946463 23914 metrics.cc:131] [worker_2]	0.036034
+I0417 02:45:43.946467 23914 metrics.cc:131] [worker_1]	0.029296
+I0417 02:45:43.946470 23914 metrics.cc:128] ---------super step 3 time record-------------
+I0417 02:45:43.946473 23914 metrics.cc:131] [worker_6]	0.016514
+I0417 02:45:43.946487 23914 metrics.cc:131] [worker_5]	0.006368
+I0417 02:45:43.946492 23914 metrics.cc:131] [worker_4]	0.012747
+I0417 02:45:43.946496 23914 metrics.cc:131] [worker_3]	0.023892
+I0417 02:45:43.946499 23914 metrics.cc:131] [worker_2]	0.008625
+I0417 02:45:43.946502 23914 metrics.cc:131] [worker_1]	0.013315
+I0417 02:45:43.946979 23914 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-4
+I0417 02:45:43.947007 23914 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-4
+I0417 02:45:43.947497 23914 worker.cc:121] [coordinator] PEval begins.
+I0417 02:45:59.139915 23914 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:46:02.821470 23914 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:46:25.090338 23914 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:46:30.882380 23914 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:46:57.181550 23914 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:47:03.343296 23914 worker.cc:133] [coordinator] IncEval - 3 begins.
+I0417 02:47:24.944480 23914 worker.cc:144] [coordinator] IncEval - 3 finishes.
+I0417 02:47:29.868465 23914 worker.cc:133] [coordinator] IncEval - 4 begins.
+I0417 02:47:42.165055 23914 worker.cc:144] [coordinator] IncEval - 4 finishes.
+I0417 02:47:44.279465 23914 worker.cc:133] [coordinator] IncEval - 5 begins.
+I0417 02:47:47.961776 23914 worker.cc:144] [coordinator] IncEval - 5 finishes.
+I0417 02:47:47.971519 23914 worker.cc:180] [coordinator] finished computation.
+I0417 02:47:49.588680 23914 worker.cc:192] [coordinator] finished result assem.
+I0417 02:47:49.588758 23914 metrics.cc:96] --------------------------------------------------
+I0417 02:47:49.588769 23914 metrics.cc:97] algorithm: bfs
+I0417 02:47:49.588778 23914 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.v
+I0417 02:47:49.588788 23914 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.e
+I0417 02:47:49.588798 23914 metrics.cc:100] partition-num: 12
+I0417 02:47:49.588806 23914 metrics.cc:101] loading-strategy: 0
+I0417 02:47:49.588814 23914 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-4
+I0417 02:47:49.588825 23914 metrics.cc:103] --------------------------------------------------
+I0417 02:47:49.588834 23914 metrics.cc:104] graph-loading-time: 469.285s
+I0417 02:47:49.588853 23914 metrics.cc:105] grape-total-time: 125.641s
+I0417 02:47:49.588865 23914 metrics.cc:106] grape-evaluation-time: 101.341s
+I0417 02:47:49.588874 23914 metrics.cc:108] grape-assemble-time: 1.61712s
+I0417 02:47:49.588884 23914 metrics.cc:110] grape-communication-time: 22.6731s
+I0417 02:47:49.588893 23914 metrics.cc:112] 	-- comm-serialization-time: 0.000355482s
+I0417 02:47:49.588903 23914 metrics.cc:114] 	-- comm-traffic-time: 18.9822s
+I0417 02:47:49.588913 23914 metrics.cc:116] grape-message-count: 6945048
+I0417 02:47:49.588922 23914 metrics.cc:117] grape-rounds: 6
+I0417 02:47:49.588929 23914 metrics.cc:118] <------------------------------------------------>
+I0417 02:47:49.588937 23914 metrics.cc:121] rnd-0: t=15.192464s	cmt-0=460715
+I0417 02:47:49.588949 23914 metrics.cc:121] rnd-1: t=22.269010s	cmt-1=1781568
+I0417 02:47:49.588958 23914 metrics.cc:121] rnd-2: t=26.299605s	cmt-2=2181155
+I0417 02:47:49.588968 23914 metrics.cc:121] rnd-3: t=21.601299s	cmt-3=1777977
+I0417 02:47:49.588979 23914 metrics.cc:121] rnd-4: t=12.296700s	cmt-4=743633
+I0417 02:47:49.588992 23914 metrics.cc:121] rnd-5: t=3.682401s	cmt-5=0
+I0417 02:47:49.589001 23914 metrics.cc:126] !------------------------------------------------!
+I0417 02:47:49.589010 23914 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:47:49.589023 23914 metrics.cc:131] [worker_6]	15.191136
+I0417 02:47:49.589037 23914 metrics.cc:131] [worker_5]	0.000194
+I0417 02:47:49.589048 23914 metrics.cc:131] [worker_4]	0.000205
+I0417 02:47:49.589061 23914 metrics.cc:131] [worker_3]	0.000243
+I0417 02:47:49.589072 23914 metrics.cc:131] [worker_2]	0.000181
+I0417 02:47:49.589083 23914 metrics.cc:131] [worker_1]	0.000207
+I0417 02:47:49.589094 23914 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:47:49.589103 23914 metrics.cc:131] [worker_6]	1.437742
+I0417 02:47:49.589114 23914 metrics.cc:131] [worker_5]	22.267662
+I0417 02:47:49.589143 23914 metrics.cc:131] [worker_4]	10.666392
+I0417 02:47:49.589155 23914 metrics.cc:131] [worker_3]	15.995720
+I0417 02:47:49.589169 23914 metrics.cc:131] [worker_2]	9.333811
+I0417 02:47:49.589179 23914 metrics.cc:131] [worker_1]	10.199245
+I0417 02:47:49.589190 23914 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:47:49.589200 23914 metrics.cc:131] [worker_6]	26.298417
+I0417 02:47:49.589211 23914 metrics.cc:131] [worker_5]	9.176645
+I0417 02:47:49.589222 23914 metrics.cc:131] [worker_4]	13.114829
+I0417 02:47:49.589233 23914 metrics.cc:131] [worker_3]	20.955718
+I0417 02:47:49.589244 23914 metrics.cc:131] [worker_2]	12.772704
+I0417 02:47:49.589257 23914 metrics.cc:131] [worker_1]	14.956509
+I0417 02:47:49.589267 23914 metrics.cc:128] ---------super step 3 time record-------------
+I0417 02:47:49.589277 23914 metrics.cc:131] [worker_6]	21.243910
+I0417 02:47:49.589287 23914 metrics.cc:131] [worker_5]	10.835629
+I0417 02:47:49.589349 23914 metrics.cc:131] [worker_4]	12.792449
+I0417 02:47:49.589363 23914 metrics.cc:131] [worker_3]	21.599803
+I0417 02:47:49.589375 23914 metrics.cc:131] [worker_2]	14.194410
+I0417 02:47:49.589390 23914 metrics.cc:131] [worker_1]	11.880916
+I0417 02:47:49.589401 23914 metrics.cc:128] ---------super step 4 time record-------------
+I0417 02:47:49.589409 23914 metrics.cc:131] [worker_6]	12.295912
+I0417 02:47:49.589421 23914 metrics.cc:131] [worker_5]	4.907849
+I0417 02:47:49.589432 23914 metrics.cc:131] [worker_4]	9.463650
+I0417 02:47:49.589443 23914 metrics.cc:131] [worker_3]	9.791655
+I0417 02:47:49.589454 23914 metrics.cc:131] [worker_2]	7.212290
+I0417 02:47:49.589465 23914 metrics.cc:131] [worker_1]	7.133347
+I0417 02:47:49.589475 23914 metrics.cc:128] ---------super step 5 time record-------------
+I0417 02:47:49.589484 23914 metrics.cc:131] [worker_6]	3.681474
+I0417 02:47:49.589498 23914 metrics.cc:131] [worker_5]	1.722537
+I0417 02:47:49.589515 23914 metrics.cc:131] [worker_4]	3.145735
+I0417 02:47:49.589527 23914 metrics.cc:131] [worker_3]	3.031096
+I0417 02:47:49.589539 23914 metrics.cc:131] [worker_2]	2.587555
+I0417 02:47:49.589548 23914 metrics.cc:131] [worker_1]	3.232362
+I0417 02:47:49.590198 23914 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-3
+I0417 02:47:49.590276 23914 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-3
+I0417 02:47:49.590920 23914 worker.cc:121] [coordinator] PEval begins.
+I0417 02:47:50.643008 23914 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:47:51.596473 23914 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:47:52.759656 23914 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:47:53.463438 23914 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:47:55.137320 23914 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:47:55.716537 23914 worker.cc:133] [coordinator] IncEval - 3 begins.
+I0417 02:47:56.483553 23914 worker.cc:144] [coordinator] IncEval - 3 finishes.
+I0417 02:47:56.672957 23914 worker.cc:133] [coordinator] IncEval - 4 begins.
+I0417 02:47:56.937903 23914 worker.cc:144] [coordinator] IncEval - 4 finishes.
+I0417 02:47:56.942152 23914 worker.cc:180] [coordinator] finished computation.
+I0417 02:47:57.079952 23914 worker.cc:192] [coordinator] finished result assem.
+I0417 02:47:57.080029 23914 metrics.cc:96] --------------------------------------------------
+I0417 02:47:57.080040 23914 metrics.cc:97] algorithm: bfs
+I0417 02:47:57.080049 23914 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.v
+I0417 02:47:57.080059 23914 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/dataset/livejournal/livejournal.e
+I0417 02:47:57.080067 23914 metrics.cc:100] partition-num: 12
+I0417 02:47:57.080076 23914 metrics.cc:101] loading-strategy: 0
+I0417 02:47:57.080085 23914 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/bfs-query/bfs-1-3
+I0417 02:47:57.080093 23914 metrics.cc:103] --------------------------------------------------
+I0417 02:47:57.080101 23914 metrics.cc:104] graph-loading-time: 469.285s
+I0417 02:47:57.080121 23914 metrics.cc:105] grape-total-time: 7.48911s
+I0417 02:47:57.080132 23914 metrics.cc:106] grape-evaluation-time: 4.92142s
+I0417 02:47:57.080140 23914 metrics.cc:108] grape-assemble-time: 0.137761s
+I0417 02:47:57.080152 23914 metrics.cc:110] grape-communication-time: 2.42317s
+I0417 02:47:57.080160 23914 metrics.cc:112] 	-- comm-serialization-time: 0.000149012s
+I0417 02:47:57.080169 23914 metrics.cc:114] 	-- comm-traffic-time: 2.2162s
+I0417 02:47:57.080179 23914 metrics.cc:116] grape-message-count: 511301
+I0417 02:47:57.080188 23914 metrics.cc:117] grape-rounds: 5
+I0417 02:47:57.080199 23914 metrics.cc:118] <------------------------------------------------>
+I0417 02:47:57.080206 23914 metrics.cc:121] rnd-0: t=1.052144s	cmt-0=119884
+I0417 02:47:57.080217 23914 metrics.cc:121] rnd-1: t=1.163268s	cmt-1=198013
+I0417 02:47:57.080226 23914 metrics.cc:121] rnd-2: t=1.673947s	cmt-2=148018
+I0417 02:47:57.080271 23914 metrics.cc:121] rnd-3: t=0.767085s	cmt-3=45386
+I0417 02:47:57.080282 23914 metrics.cc:121] rnd-4: t=0.264973s	cmt-4=0
+I0417 02:47:57.080291 23914 metrics.cc:126] !------------------------------------------------!
+I0417 02:47:57.080310 23914 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:47:57.080343 23914 metrics.cc:131] [worker_6]	1.004837
+I0417 02:47:57.080360 23914 metrics.cc:131] [worker_5]	0.000257
+I0417 02:47:57.080374 23914 metrics.cc:131] [worker_4]	0.000208
+I0417 02:47:57.080385 23914 metrics.cc:131] [worker_3]	0.000265
+I0417 02:47:57.080404 23914 metrics.cc:131] [worker_2]	0.000270
+I0417 02:47:57.080416 23914 metrics.cc:131] [worker_1]	0.000273
+I0417 02:47:57.080427 23914 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:47:57.080437 23914 metrics.cc:131] [worker_6]	0.219667
+I0417 02:47:57.080462 23914 metrics.cc:131] [worker_5]	1.162354
+I0417 02:47:57.080474 23914 metrics.cc:131] [worker_4]	1.039418
+I0417 02:47:57.080484 23914 metrics.cc:131] [worker_3]	1.047256
+I0417 02:47:57.080494 23914 metrics.cc:131] [worker_2]	0.669031
+I0417 02:47:57.080505 23914 metrics.cc:131] [worker_1]	0.918869
+I0417 02:47:57.080515 23914 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:47:57.080524 23914 metrics.cc:131] [worker_6]	1.673323
+I0417 02:47:57.080534 23914 metrics.cc:131] [worker_5]	0.466785
+I0417 02:47:57.080545 23914 metrics.cc:131] [worker_4]	0.880473
+I0417 02:47:57.080555 23914 metrics.cc:131] [worker_3]	0.997038
+I0417 02:47:57.080566 23914 metrics.cc:131] [worker_2]	0.903628
+I0417 02:47:57.080577 23914 metrics.cc:131] [worker_1]	1.149317
+I0417 02:47:57.080587 23914 metrics.cc:128] ---------super step 3 time record-------------
+I0417 02:47:57.080596 23914 metrics.cc:131] [worker_6]	0.766388
+I0417 02:47:57.080607 23914 metrics.cc:131] [worker_5]	0.351870
+I0417 02:47:57.080617 23914 metrics.cc:131] [worker_4]	0.697021
+I0417 02:47:57.080638 23914 metrics.cc:131] [worker_3]	0.721853
+I0417 02:47:57.080651 23914 metrics.cc:131] [worker_2]	0.652157
+I0417 02:47:57.080662 23914 metrics.cc:131] [worker_1]	0.628608
+I0417 02:47:57.080670 23914 metrics.cc:128] ---------super step 4 time record-------------
+I0417 02:47:57.080679 23914 metrics.cc:131] [worker_6]	0.264238
+I0417 02:47:57.080690 23914 metrics.cc:131] [worker_5]	0.099915
+I0417 02:47:57.080701 23914 metrics.cc:131] [worker_4]	0.207502
+I0417 02:47:57.080713 23914 metrics.cc:131] [worker_3]	0.222246
+I0417 02:47:57.080724 23914 metrics.cc:131] [worker_2]	0.199975
+I0417 02:47:57.080734 23914 metrics.cc:131] [worker_1]	0.218045
+I0417 02:47:57.081400 23914 worker.cc:87] all queries in the workload is processed. 
+I0417 02:47:57.081418 23914 worker.cc:99] query_info=
+I0417 02:47:57.082077 23914 worker.cc:107] [coordinator] shutdown.

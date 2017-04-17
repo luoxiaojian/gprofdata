@@ -1,0 +1,53 @@
+Log file created at: 2017/04/17 02:20:36
+Running on machine: bd3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 02:20:36.035390 23413 util.cc:50] "p2p-cc"
+I0417 02:20:36.035645 23413 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/cc-query/p2p-cc
+I0417 02:20:36.035665 23413 query.cc:89] load query from/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/cc-query/p2p-cc
+I0417 02:20:36.035715 23413 query.cc:131] finished read pattern from file
+I0417 02:20:36.035763 23413 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/cc-query/p2p-cc
+I0417 02:20:36.035904 23413 worker.cc:121] [coordinator] PEval begins.
+I0417 02:20:37.920343 23413 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:20:38.242816 23413 worker.cc:169] total message_size = 47155
+I0417 02:20:38.242885 23413 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:20:38.434368 23413 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:20:38.437469 23413 worker.cc:169] total message_size = 10
+I0417 02:20:38.437516 23413 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:20:38.437809 23413 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:20:38.437964 23413 worker.cc:169] total message_size = 0
+I0417 02:20:38.437995 23413 worker.cc:180] [coordinator] finished computation.
+I0417 02:20:38.707186 23413 worker.cc:192] [coordinator] finished result assem.
+I0417 02:20:38.707228 23413 metrics.cc:96] --------------------------------------------------
+I0417 02:20:38.707232 23413 metrics.cc:97] algorithm: cc
+I0417 02:20:38.707237 23413 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/grape/dataset/p2p-31/p2p-31.v
+I0417 02:20:38.707239 23413 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/grape/dataset/p2p-31/p2p-31.e
+I0417 02:20:38.707243 23413 metrics.cc:100] partition-num: 4
+I0417 02:20:38.707247 23413 metrics.cc:101] loading-strategy: 2
+I0417 02:20:38.707249 23413 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/cc-query/p2p-cc
+I0417 02:20:38.707252 23413 metrics.cc:103] --------------------------------------------------
+I0417 02:20:38.707255 23413 metrics.cc:104] graph-loading-time: 2.67527s
+I0417 02:20:38.707300 23413 metrics.cc:105] grape-total-time: 2.67132s
+I0417 02:20:38.707304 23413 metrics.cc:106] grape-evaluation-time: 2.0763s
+I0417 02:20:38.707309 23413 metrics.cc:108] grape-assemble-time: 0.269173s
+I0417 02:20:38.707312 23413 metrics.cc:110] grape-communication-time: 0.325572s
+I0417 02:20:38.707316 23413 metrics.cc:112] 	-- comm-serialization-time: 4.07696e-05s
+I0417 02:20:38.707321 23413 metrics.cc:114] 	-- comm-traffic-time: 0.289859s
+I0417 02:20:38.707324 23413 metrics.cc:116] grape-message-count: 47165
+I0417 02:20:38.707329 23413 metrics.cc:117] grape-rounds: 3
+I0417 02:20:38.707330 23413 metrics.cc:118] <------------------------------------------------>
+I0417 02:20:38.707334 23413 metrics.cc:121] rnd-0: t=1.884484s	cmt-0=47155
+I0417 02:20:38.707372 23413 metrics.cc:121] rnd-1: t=0.191516s	cmt-1=10
+I0417 02:20:38.707377 23413 metrics.cc:121] rnd-2: t=0.000301s	cmt-2=0
+I0417 02:20:38.707381 23413 metrics.cc:126] !------------------------------------------------!
+I0417 02:20:38.707384 23413 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:20:38.707398 23413 metrics.cc:131] [worker_2]	1.757997
+I0417 02:20:38.707411 23413 metrics.cc:131] [worker_1]	1.884350
+I0417 02:20:38.707415 23413 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:20:38.707420 23413 metrics.cc:131] [worker_2]	0.118583
+I0417 02:20:38.707433 23413 metrics.cc:131] [worker_1]	0.191452
+I0417 02:20:38.707437 23413 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:20:38.707442 23413 metrics.cc:131] [worker_2]	0.000184
+I0417 02:20:38.707448 23413 metrics.cc:131] [worker_1]	0.000279
+I0417 02:20:38.707494 23413 worker.cc:87] all queries in the workload is processed. 
+I0417 02:20:38.707501 23413 worker.cc:99] query_info=
+I0417 02:20:38.707677 23413 worker.cc:107] [coordinator] shutdown.

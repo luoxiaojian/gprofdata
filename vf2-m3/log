@@ -1,0 +1,40 @@
+Log file created at: 2017/04/17 03:24:04
+Running on machine: bd3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 03:24:04.867312 24109 util.cc:50] "twitter-vf2-ptn1"
+I0417 03:24:04.867566 24109 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/vf2-query/twitter-vf2-ptn1
+I0417 03:24:04.867586 24109 query.cc:89] load query from/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/vf2-query/twitter-vf2-ptn1
+I0417 03:24:04.867807 24109 query.cc:131] finished read pattern from file
+I0417 03:24:04.867889 24109 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/vf2-query/twitter-vf2-ptn1
+I0417 03:24:40.772804 24109 worker.cc:121] [coordinator] PEval begins.
+I0417 03:27:00.533473 24109 worker.cc:131] [coordinator] PEval finishes.
+I0417 03:27:00.534615 24109 worker.cc:169] total message_size = 0
+I0417 03:27:00.534991 24109 worker.cc:180] [coordinator] finished computation.
+I0417 03:27:00.565338 24109 vf2.cc:51] total match size = 8101
+I0417 03:27:00.569322 24109 worker.cc:192] [coordinator] finished result assem.
+I0417 03:27:00.569337 24109 metrics.cc:96] --------------------------------------------------
+I0417 03:27:00.569352 24109 metrics.cc:97] algorithm: vf2
+I0417 03:27:00.569355 24109 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/grape/dataset/twitter/twitter.v
+I0417 03:27:00.569356 24109 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/grape/dataset/twitter/twitter.e
+I0417 03:27:00.569360 24109 metrics.cc:100] partition-num: 4
+I0417 03:27:00.569361 24109 metrics.cc:101] loading-strategy: 3
+I0417 03:27:00.569363 24109 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/vf2-query/twitter-vf2-ptn1
+I0417 03:27:00.569365 24109 metrics.cc:103] --------------------------------------------------
+I0417 03:27:00.569367 24109 metrics.cc:104] graph-loading-time: 39.3462s
+I0417 03:27:00.569391 24109 metrics.cc:105] grape-total-time: 139.797s
+I0417 03:27:00.569394 24109 metrics.cc:106] grape-evaluation-time: 139.761s
+I0417 03:27:00.569396 24109 metrics.cc:108] grape-assemble-time: 0.0343211s
+I0417 03:27:00.569399 24109 metrics.cc:110] grape-communication-time: 0.00102305s
+I0417 03:27:00.569402 24109 metrics.cc:112] 	-- comm-serialization-time: 1.50204e-05s
+I0417 03:27:00.569406 24109 metrics.cc:114] 	-- comm-traffic-time: 0.000833035s
+I0417 03:27:00.569408 24109 metrics.cc:116] grape-message-count: 0
+I0417 03:27:00.569411 24109 metrics.cc:117] grape-rounds: 1
+I0417 03:27:00.569412 24109 metrics.cc:118] <------------------------------------------------>
+I0417 03:27:00.569414 24109 metrics.cc:121] rnd-0: t=139.760779s	cmt-0=0
+I0417 03:27:00.569440 24109 metrics.cc:126] !------------------------------------------------!
+I0417 03:27:00.569442 24109 metrics.cc:128] ---------super step 0 time record-------------
+I0417 03:27:00.569449 24109 metrics.cc:131] [worker_2]	95.320019
+I0417 03:27:00.569455 24109 metrics.cc:131] [worker_1]	139.760152
+I0417 03:27:00.569629 24109 worker.cc:87] all queries in the workload is processed. 
+I0417 03:27:00.569638 24109 worker.cc:99] query_info=
+I0417 03:27:00.570116 24109 worker.cc:107] [coordinator] shutdown.

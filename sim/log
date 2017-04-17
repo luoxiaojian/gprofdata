@@ -1,0 +1,78 @@
+Log file created at: 2017/04/17 02:22:28
+Running on machine: bd3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 02:22:28.887866 23499 util.cc:50] "twitter-sim-ptn1"
+I0417 02:22:28.888136 23499 worker.cc:90] The query is /home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/sim-query/twitter-sim-ptn1
+I0417 02:22:28.888164 23499 query.cc:89] load query from/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/sim-query/twitter-sim-ptn1
+I0417 02:22:28.888519 23499 query.cc:131] finished read pattern from file
+I0417 02:22:28.888586 23499 worker.cc:99] query_info=file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/sim-query/twitter-sim-ptn1
+I0417 02:22:28.889012 23499 worker.cc:121] [coordinator] PEval begins.
+I0417 02:22:32.714890 23499 worker.cc:131] [coordinator] PEval finishes.
+I0417 02:22:32.779777 23499 worker.cc:169] total message_size = 7643
+I0417 02:22:32.779817 23499 worker.cc:133] [coordinator] IncEval - 1 begins.
+I0417 02:22:32.897596 23499 worker.cc:144] [coordinator] IncEval - 1 finishes.
+I0417 02:22:32.902479 23499 worker.cc:169] total message_size = 360
+I0417 02:22:32.902513 23499 worker.cc:133] [coordinator] IncEval - 2 begins.
+I0417 02:22:32.980585 23499 worker.cc:144] [coordinator] IncEval - 2 finishes.
+I0417 02:22:32.981194 23499 worker.cc:169] total message_size = 22
+I0417 02:22:32.981241 23499 worker.cc:133] [coordinator] IncEval - 3 begins.
+I0417 02:22:33.040645 23499 worker.cc:144] [coordinator] IncEval - 3 finishes.
+I0417 02:22:33.040916 23499 worker.cc:169] total message_size = 2
+I0417 02:22:33.040966 23499 worker.cc:133] [coordinator] IncEval - 4 begins.
+I0417 02:22:33.112033 23499 worker.cc:144] [coordinator] IncEval - 4 finishes.
+I0417 02:22:33.112269 23499 worker.cc:169] total message_size = 0
+I0417 02:22:33.112311 23499 worker.cc:180] [coordinator] finished computation.
+I0417 02:22:33.536094 23499 sim.cc:236] Total matches: 39121
+I0417 02:22:33.561820 23499 worker.cc:192] [coordinator] finished result assem.
+I0417 02:22:33.561849 23499 metrics.cc:96] --------------------------------------------------
+I0417 02:22:33.561866 23499 metrics.cc:97] algorithm: simulation
+I0417 02:22:33.561877 23499 metrics.cc:98] dataset-vfile: /home/ubuntu/luoxiaojian/grape/dataset/twitter/twitter.v
+I0417 02:22:33.561882 23499 metrics.cc:99] dataset-efile: /home/ubuntu/luoxiaojian/grape/dataset/twitter/twitter.e
+I0417 02:22:33.561884 23499 metrics.cc:100] partition-num: 4
+I0417 02:22:33.561888 23499 metrics.cc:101] loading-strategy: 1
+I0417 02:22:33.561892 23499 metrics.cc:102] query-info: file:/home/ubuntu/luoxiaojian/grape/cpp/scripts/grape-data/test/sim-query/twitter-sim-ptn1
+I0417 02:22:33.561897 23499 metrics.cc:103] --------------------------------------------------
+I0417 02:22:33.561900 23499 metrics.cc:104] graph-loading-time: 11.567s
+I0417 02:22:33.561936 23499 metrics.cc:105] grape-total-time: 4.67284s
+I0417 02:22:33.561944 23499 metrics.cc:106] grape-evaluation-time: 4.15238s
+I0417 02:22:33.561952 23499 metrics.cc:108] grape-assemble-time: 0.449481s
+I0417 02:22:33.561959 23499 metrics.cc:110] grape-communication-time: 0.0706527s
+I0417 02:22:33.561964 23499 metrics.cc:112] 	-- comm-serialization-time: 0.000113249s
+I0417 02:22:33.561971 23499 metrics.cc:114] 	-- comm-traffic-time: 0.0497797s
+I0417 02:22:33.561992 23499 metrics.cc:116] grape-message-count: 8027
+I0417 02:22:33.562003 23499 metrics.cc:117] grape-rounds: 5
+I0417 02:22:33.562007 23499 metrics.cc:118] <------------------------------------------------>
+I0417 02:22:33.562022 23499 metrics.cc:121] rnd-0: t=3.825923s	cmt-0=7643
+I0417 02:22:33.562037 23499 metrics.cc:121] rnd-1: t=0.117811s	cmt-1=360
+I0417 02:22:33.562044 23499 metrics.cc:121] rnd-2: t=0.078125s	cmt-2=22
+I0417 02:22:33.562057 23499 metrics.cc:121] rnd-3: t=0.059427s	cmt-3=2
+I0417 02:22:33.562063 23499 metrics.cc:121] rnd-4: t=0.071090s	cmt-4=0
+I0417 02:22:33.562070 23499 metrics.cc:126] !------------------------------------------------!
+I0417 02:22:33.562081 23499 metrics.cc:128] ---------super step 0 time record-------------
+I0417 02:22:33.562093 23499 metrics.cc:131] [worker_4]	3.188835
+I0417 02:22:33.562103 23499 metrics.cc:131] [worker_3]	3.825797
+I0417 02:22:33.562111 23499 metrics.cc:131] [worker_2]	3.333859
+I0417 02:22:33.562130 23499 metrics.cc:131] [worker_1]	3.301086
+I0417 02:22:33.562167 23499 metrics.cc:128] ---------super step 1 time record-------------
+I0417 02:22:33.562187 23499 metrics.cc:131] [worker_4]	0.074811
+I0417 02:22:33.562198 23499 metrics.cc:131] [worker_3]	0.117747
+I0417 02:22:33.562211 23499 metrics.cc:131] [worker_2]	0.105087
+I0417 02:22:33.562224 23499 metrics.cc:131] [worker_1]	0.081114
+I0417 02:22:33.562235 23499 metrics.cc:128] ---------super step 2 time record-------------
+I0417 02:22:33.562242 23499 metrics.cc:131] [worker_4]	0.027625
+I0417 02:22:33.562248 23499 metrics.cc:131] [worker_3]	0.078044
+I0417 02:22:33.562264 23499 metrics.cc:131] [worker_2]	0.032949
+I0417 02:22:33.562278 23499 metrics.cc:131] [worker_1]	0.076213
+I0417 02:22:33.562283 23499 metrics.cc:128] ---------super step 3 time record-------------
+I0417 02:22:33.562290 23499 metrics.cc:131] [worker_4]	0.054252
+I0417 02:22:33.562304 23499 metrics.cc:131] [worker_3]	0.047901
+I0417 02:22:33.562312 23499 metrics.cc:131] [worker_2]	0.059384
+I0417 02:22:33.562319 23499 metrics.cc:131] [worker_1]	0.035668
+I0417 02:22:33.562326 23499 metrics.cc:128] ---------super step 4 time record-------------
+I0417 02:22:33.562332 23499 metrics.cc:131] [worker_4]	0.026558
+I0417 02:22:33.562340 23499 metrics.cc:131] [worker_3]	0.071034
+I0417 02:22:33.562348 23499 metrics.cc:131] [worker_2]	0.040914
+I0417 02:22:33.562361 23499 metrics.cc:131] [worker_1]	0.068631
+I0417 02:22:33.562417 23499 worker.cc:87] all queries in the workload is processed. 
+I0417 02:22:33.562425 23499 worker.cc:99] query_info=
+I0417 02:22:33.562820 23499 worker.cc:107] [coordinator] shutdown.
